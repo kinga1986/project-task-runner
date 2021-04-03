@@ -89,8 +89,8 @@ nav .container {
 
 .splash-shadow {
 	background: rgba(0,0,0,.5);
-	 background: rgba(0, 0, 0, .5);
-	 height: 100vh;
+	background: rgba(0, 0, 0, .5);
+	height: 100vh;
  }
 
 .splash-inner {
@@ -166,3 +166,28 @@ img {
     object-fit: cover;
 }
 
+/* Footer */
+
+.footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.footer ul li {
+	font-size: 0;
+}
+
+.footer ul li i {
+	font-size: 30px;
+    border: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    color:  #f6b93b;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;  
+}
