@@ -1,0 +1,95 @@
+/* Global */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+section {
+	padding: 96px 0;
+}
+
+.btn {
+	display: inline-block;
+	min-width: 200px;
+	margin: 24px auto 0 auto;
+	padding: 12px;
+	border-radius: 5px;
+	font-size: 20px;
+	color: white;
+	border-color: none;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: rgba(228, 196, 53, 0.726);
+	}
+
+/* Navigation */
+
+nav .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navbar li {   
+    display: inline-block;
+    margin: 0 36px 0 0;
+	font-weight: 700;
+}
+
+.navbar a {
+	text-decoration: none;
+    font-weight: 400;
+    color: white;
+}
+
+.logo {
+	font-style: italic;
+	color:rgba(228, 196, 53, 0.726);
+	font-size: 28px;
+}
+
+/* Splash */
+
+.splash {
+	min-height: 100vh;
+    background-image: url('https://i.postimg.cc/7LHzZJP6/pexels-ricardo-esquivel-4011762-2.jpg');
+    margin: auto;
+	background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.splash-shadow {
+	background: rgba(0,0,0,.5);
+	 background: rgba(0, 0, 0, .5);
+	 height: 100vh;
+ }
+
+.splash-inner {
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 150px 0;
+}
+
+.page-title {
+    color: white;
+    font-size: 60px;
+	margin-top: 20px;
+}
+
+.page-subtitle {
+    margin: 40px 0 0 0;
+    font-size: 38px;
+    color: white;
+	font-style: italic;
+    }
